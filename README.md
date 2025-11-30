@@ -10,3 +10,5 @@ This website is a Shape calculator website which calculates 2D and 3D shapes and
 # Current Status 
 Currently, this website focuses mobile devices and for smaller screen.
 
+# Monitor current status of website
+link-[https://sbp-learner.github.io/Geometry-Tool]
