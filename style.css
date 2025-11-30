@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper{
+    max-width: 2400px;
+    margin: auto;
+    position: relative;
+    font-family: sans-serif;
+    
+}
+header{
+    height: 5rem;
+    position: relative;
+}
+nav{
+    padding: 1rem;
+    position: relative;
+    width: 100%;
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    background-color: #521eff;
+
+}
+.signIn{
+    background: linear-gradient(to right, rgb(150, 4, 254), blue);
+    color: antiquewhite;
+    padding: 0.5rem 1rem;
+    border-radius: 7px;
+    border: none;
+    cursor: pointer;
+
+}
+button:hover {
+  opacity: 0.9;
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+button{
+    font-size: bold;
+}
+.text{
+    color: white;
+    
+    display: flex;
+    flex-direction: column;
+}
+.nav-logo{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.text :nth-child(1){
+    font-weight: bold;
+    font-size: 1.8rem;
+}
+.calc-text :nth-child(1){
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+.calc-text{
+    display: flex;
+}
+.main-body{
+    width: 100%;
+    padding-top: 3rem;
+    padding-left: 0.9rem;
+    padding-right: 0.9rem;
+}
+.main-body-intro{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    ;
+    
+}
+.main-body-intro :nth-child(1){
+    padding: 0.6rem;
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+.main-body-intro :nth-child(2){
+    font-size: 0.66rem;
+    text-align: center;
+    font-weight: bold;
+}
+.main-body-shapeopt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    margin: 0 auto;
+
+    
+}
+main{
+    padding-bottom: 4rem;
+    background-color: #3d00e4;
+}
+.twoD-shape{
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    margin-bottom: 2rem;
+    width: 100%;
+    background: linear-gradient(to right, rgb(73, 200, 255), rgb(103, 243, 131));
+    flex-direction: column;
+    box-shadow: 9px 6px 15px rgb(54 5 80);
+}
+.threeD-shape{
+    background: linear-gradient(to right, rgb(178, 73, 253), rgb(255, 58, 130));
+    flex-direction: column;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    width: 100%;
+    box-shadow: 9px 6px 15px rgb(54 5 80);
+}
+.twoD-body-text{
+    display: flex;
+    color: rgb(6, 87, 124);
+}
+.threeD-body-text{
+    display: flex;
+    color: rgb(87, 5, 146);
+
+}
+.D-shape-text{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.twoD-body-shapes{
+
+}
+   
+
+
+
