@@ -9,6 +9,13 @@ This website is a Shape calculator website which calculates 2D and 3D shapes and
 
 # Current Status 
 Currently, this website focuses mobile devices and for smaller screen.
+- It is currently a Landing UI page for mobile devices specifically.
+
+# Future Plans
+ - Add js for calculations
+ - Add more pages of html and css
+ - Add API(Flask)
+ - Improving the Calculator while gaining knowledge
 
 # Monitor current status of website
 link-[https://sbp-learner.github.io/Geometry-Tool]
