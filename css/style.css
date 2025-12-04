@@ -198,7 +198,7 @@ main{
     flex-direction: column;
     padding: 0.5rem;
 }
-.copyright-band p{
+.copyright-band span{
     text-align: center;
     margin-bottom: 0.5rem;
     font-size: 0.7rem;
@@ -218,6 +218,7 @@ main{
     gap: 2rem;
     padding: 1rem;
 }
+
 
    
 
