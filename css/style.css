@@ -5,10 +5,12 @@
     
 }
 body{
-    background: radial-gradient(circle at top, #1a103f, #050013);
+    color: rgb(11, 11, 12);
+    background: linear-gradient(180deg, #005eff6c, #fe00b24d);
+    background-repeat: no-repeat;
 }
 .wrapper{
-    max-width: 380px;
+    max-width: 470px;
     margin: auto;
     font-family: sans-serif;
     overflow: hidden;
@@ -18,6 +20,7 @@ header{
     position: relative;
 }
 nav{
+
     padding: 1rem;
     position: relative;
     width: 100%;
@@ -26,12 +29,13 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    background: linear-gradient(90deg, #6a33ff, #4a1eff);
-
+    background: rgba(255, 255, 255, 0.25);
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
 }
 .signIn{
-    background: linear-gradient(90deg, #8b5cf6, #6366f1);
-    color: antiquewhite;
+    background: #312e3b;
+    color: white;
     padding: 0.5rem 1rem;
     border-radius: 7px;
     border: none;
@@ -41,13 +45,16 @@ nav{
 button:hover {
   opacity: 0.9;
   transform: scale(1.1);
+
+  
 }
 button{
-    font-size: bold;
+    font-weight: 600;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+
 }
 .text{
-    color: white;
-    
+    color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
 }
@@ -75,7 +82,7 @@ button{
     padding-right: 0.9rem;
 }
 .main-body-intro{
-    color: #e7e9ff;
+    color: #232323e6;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -85,10 +92,11 @@ button{
 .main-body-intro :nth-child(1){
     padding: 0.6rem;
     font-weight: 600;
-    font-size: 1.4rem;
+    font-size: 1.8rem;
+    text-align: center;
 }
 .main-body-intro :nth-child(2){
-    font-size: 0.66rem;
+    font-size: .8rem;
     text-align: center;
     font-weight: bold;
 }
@@ -101,10 +109,9 @@ button{
     margin: 0 auto;
 
     
-}
+} 
 main{
     padding-bottom: 4rem;
-      background: radial-gradient(circle at 30% 20%, #281fd4, #42029b 70%);
 }
 .twoD-shape{
     padding: 1rem;
@@ -115,15 +122,14 @@ main{
     margin-bottom: 2rem;
     width: 100%;
     transition: transform 0.3s ease, opacity 0.3s ease;
-    background: linear-gradient(135deg, #3dd8ff, #5596ff);
-    box-shadow: 0 8px 18px rgba(40, 120, 255, 0.3);
+    background: linear-gradient(135deg, #A8D8FF, #6BB8FF);
     flex-direction: column;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+
 }
 .threeD-shape{
-    
     transition: transform 0.3s ease, opacity 0.3s ease;
-    background: linear-gradient(135deg, #ff56c7, #a855f7);
-    box-shadow: 0 8px 18px rgba(168, 85, 247, 0.35);
+    background: linear-gradient(135deg, #F7A8E8, #CB8CFF);
     flex-direction: column;
     padding: 1rem;
     display: flex;
@@ -131,26 +137,27 @@ main{
     align-items: center;
     border-radius: 16px;
     width: 100%;
-    
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.171);
+
 }
 .twoD-shape:hover{
-    box-shadow: 0 0 25px rgb(79, 199, 250);
+    box-shadow: 0 0 25px rgba(18, 47, 59, 0.413);
     opacity: 0.9;
     transform: scale(1.1);            
 }
 .threeD-shape:hover{
-    box-shadow: 0 0 25px rgba(255, 90, 210, 0.45);
+    box-shadow: 0 0 25px rgba(82, 18, 65, 0.45);
     opacity: 0.9;
     transform: scale(1.1);
 }
 
 .twoD-body-text{
     display: flex;
-    color: rgb(6, 87, 124);
+    color: rgb(9, 30, 40);
 }
 .threeD-body-text{
     display: flex;
-    color: rgb(87, 5, 146);
+    color: rgb(33, 29, 36);
 
 }
 .D-shape-text{
@@ -166,6 +173,9 @@ main{
   align-items: center;
   justify-content: center;
   background: #ffffff;
+}
+footer {
+    background-color: black;
 }
 .main-footer{
     display: flex;
