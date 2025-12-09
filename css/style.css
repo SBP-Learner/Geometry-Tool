@@ -40,13 +40,10 @@ nav{
     border-radius: 7px;
     border: none;
     cursor: pointer;
-
 }
 button:hover {
   opacity: 0.9;
   transform: scale(1.1);
-
-  
 }
 button{
     font-weight: 600;
@@ -63,10 +60,10 @@ button{
     align-items: center;
     gap: 5px;
 }
-
 .text :nth-child(1){
     font-weight: bold;
     font-size: 1.8rem;
+     text-shadow: 1px 1px 2px rgb(59, 58, 58);
 }
 .calc-text :nth-child(1){
     font-weight: 600;
@@ -74,6 +71,9 @@ button{
 }
 .calc-text{
     display: flex;
+}
+svg {
+    filter: drop-shadow(1px 1px 2px rgb(0, 0, 0));
 }
 .main-body{
     width: 100%;
@@ -159,6 +159,10 @@ main{
     display: flex;
     color: rgb(33, 29, 36);
 
+}
+a {
+    text-decoration: none;
+    width: 100%;
 }
 .D-shape-text{
     font-size: 2rem;
