@@ -247,8 +247,7 @@ footer {
     padding-bottom: 0;
 }
 
-
-   
-
-
-
+.foot-img-text{
+    display: flex;
+    align-items: center;
+}

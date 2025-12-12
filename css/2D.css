@@ -211,5 +211,8 @@ a{
     color: white;
     text-decoration: none;
 }
-
+.foot-img-text{
+    display: flex;
+    align-items: center;
+}
 
