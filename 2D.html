@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>2D-Shapes</title>
+    <link rel="icon" type="image/png" href="Assets/index-assets/SBP-icon.png">
     <link rel="stylesheet" href="css/2D.css">
 </head>
 <body>
@@ -11,9 +12,10 @@
     <header>
         <nav>
             <div class="right">
-                <button>
+                <a href="index.html">
+                <button class="back">
                 <img width="20px" src="Assets/2D-assets/back.png" alt="back-arrow">
-            </button>
+            </button> </a>
             </div>
             <div class="left">
             <button>Home</button>
@@ -24,17 +26,72 @@
     <main>
         <section class="upperbody">
             <div class="selections">
-                <div class="title">Basic Shapes</div>
+                <div class="title Basic">Basic Shapes</div>
                 <ul class="Basic-shapes">
-                    <li>Square</li>
-                    <li>Rectangle</li>
-                    <li>Circle</li>
-                    <li>Triangles</li>
-                    <li>Rhombus</li>
-                    <li>Trapezium</li>
-                    <li>Kite</li>
+                    <li>Square<svg width="100px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="g-square" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#00C9FF"/>
+      <stop offset="1" stop-color="#92FE9D"/>
+    </linearGradient>
+  </defs>
+  <rect x="40" y="40" width="120" height="120" rx="16" fill="url(#g-square)"/>
+</svg>
+</li>
+                    <li>Rectangle<svg width="100px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="g-rect" x1="0" x2="1" y1="0" y2="0.8">
+      <stop offset="0" stop-color="#FF7A88"/>
+      <stop offset="1" stop-color="#FFB86B"/>
+    </linearGradient>
+  </defs>
+  <rect x="20" y="55" width="160" height="90" rx="18" fill="url(#g-rect)"/>
+</svg>
+</li>
+                    <li>Circle<svg width="100px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <radialGradient id="g-circle" cx="0.3" cy="0.3" r="0.9">
+      <stop offset="0" stop-color="#FFD3A5"/>
+      <stop offset="1" stop-color="#FD6585"/>
+    </radialGradient>
+  </defs>
+  <circle cx="100" cy="100" r="60" fill="url(#g-circle)" />
+</svg>
+</li>
+                    <li>Triangles <svg width="100px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="g-tri" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#6A00F4"/>
+      <stop offset="1" stop-color="#00D2FF"/>
+    </linearGradient>
+  </defs>
+  <polygon points="100,30 170,150 30,150" fill="url(#g-tri)" />
+</svg>
+</li>
+                    <li>Rhombus<svg width="100px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="g-rhomb" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#7F00FF"/>
+      <stop offset="1" stop-color="#E100FF"/>
+    </linearGradient>
+  </defs>
+  <polygon points="100,20 160,100 100,180 40,100" fill="url(#g-rhomb)" />
+</svg>
+</li>
+                    <li>Trapezium<svg width="100px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="g-trap" x1="0" x2="1" y1="0.2" y2="0.8">
+      <stop offset="0" stop-color="#FF5F6D"/>
+      <stop offset="1" stop-color="#FFC371"/>
+    </linearGradient>
+  </defs>
+  <polygon points="40,50 160,50 140,150 60,150" fill="url(#g-trap)" rx="6"/>
+</svg>
+</li>
+                    <li>Kite<svg width="100px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+<defs><linearGradient id="g-kite" x1="0" x2="1" y1="0" y2="1"><stop offset="0" stop-color="#00F260"/><stop offset="1" stop-color="#0575E6"/></linearGradient></defs><polygon points="100,18 150,95 100,180 60,95" fill="url(#g-kite)" /></svg></li>
                 </ul>
-                <div class="title">Advance Shapes</div>
+                <div class="title Advance">Advance Shapes</div>
                 <ul class="advanced-shapes">
                     <h1>Coming Soon</h1>
                     <!-- <li>Regular polygons</li>
@@ -43,7 +100,7 @@
                     <li>Circle Segment</li>
                     <li>Annulus(Ring)</li> -->
                 </ul>
-                <div class="title">Premium Features</div>
+                <div class="title Premium">Premium Features</div>
                 <ul class="premium-shapes">
                     <h1>Locked 🔒</h1>
                     <!-- <li>Irregular polygon calculator (Using Coordinates)</li>
@@ -55,56 +112,41 @@
         </section>
         <section class="lowerbody">
             <div class="calculation">
-                
+
             </div>
 
         </section>
 
     </main>
     <footer>
-         <div class="foot-info">
-        <div class="foot-box">
-            <h4><b>Product</b></h4>
-            <p>Features</p>
-            <p>Pricing</p>
-            <p>API</p>
-            <p>Documentation</p>
-        </div>
-        <div class="foot-box">
-            <h4><b>Company</b></h4>
-            <p>About Us</p>
-            <p>Blogs</p>
-            <p>Careers</p>
-            <p>Contact</p>
-        </div>
-        <div class="foot-box">
-            <h4><b>Legal</b></h4>
-            <p>Privacy Policy</p>
-            <p>Terms of Service</p>
-            <p>Cookie Policy</p>
-            <p>Licences</p>
-        </div>
-        </div>
+        <div class="foot-info">
+         <div class="foot-box">
+            <h4><b>ShapeCalc - Geometry Tool</b></h4>
+            <p>A simple educational tool built to calculate and visualize 2D and 3D shapes.</p>
+            <p class="author">
+              Created by <strong>Sharma Bhanuprakash</strong> — First Year Project (2025)
+            </p>
+         </div>
 
-        <div class="copyright-band">
-            <span>© 2025 ShapeCalc. All rights reserved</span>
+         <div class="copyright-band">
+            <span>© 2025 Bhanuprakash Sharma — For educational use only.</span>
             <div class="minilogos">
-                <div class="min-log" id="twitter">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-twitter w-5 h-5" aria-hidden="true"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"></path></svg>
-                </div>
+                <a href="https://github.com/SBP-Learner" target="_blank">
                 <div class="min-log" id="github">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github w-5 h-5" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
-                </div>
+                </div> </a>
+                <a href="https://www.linkedin.com/in/bhanuprakash-sharma-5aa275374?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
                 <div class="min-log" id="linkedin">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin w-5 h-5" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
-                </div>
+                </div> </a>
+                <a href="mailto:sbhanuprakash971@gmail.com" target="_blank">
                 <div class="min-log" id="mail">
                     <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail w-5 h-5" aria-hidden="true"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg>
-                </div>
+                </div> </a>
                 
             </div>
+         </div>
         </div>
-
     </footer>
     </div>
 </body>
