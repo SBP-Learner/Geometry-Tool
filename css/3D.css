@@ -169,7 +169,10 @@ svg {
     width: 100px;
     height: 100px;
 }
-
+.min-log svg{
+    height: 24px;
+    width: 24px;
+}
 
 footer {
     background-color: black;
