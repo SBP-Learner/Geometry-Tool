@@ -1,130 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shape Calculator</title>
     <link rel="icon" type="image/png" href="Assets/index-assets/SBP-icon.png">
     <link rel="stylesheet" href="css/style.css">
-    
+
 </head>
+
 <body>
     <div class="wrapper">
-    <header>
-        <nav>
-            <div class="nav-logo">
-                <div class="logo-img">
-                <img width="60rem" src="Assets/index-assets/SBP-logo.png" alt="SBP-Logo">
+        <header>
+            <nav>
+                <div class="nav-logo">
+                    <div class="logo-img">
+                        <img width="60rem" src="Assets/index-assets/SBP-logo.png" alt="SBP-Logo">
+                    </div>
+                    <div class="text"><span>Shape</span>
+                        <div class="calc-text"><span>Calculator</span><svg fill="white" width="17px"
+                                xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                                version="1.1" viewBox="0 0 267.5 267.5" enable-background="new 0 0 267.5 267.5">
+                                <g>
+                                    <path
+                                        d="m213.25,0h-159c-6.893,0-12.5,5.607-12.5,12.5v219.75c0,19.437 15.813,35.25 35.25,35.25h113.5c19.437,0 35.25-15.813 35.25-35.25v-219.75c0-6.893-5.607-12.5-12.5-12.5zm.5,232.25c0,12.82-10.43,23.25-23.25,23.25h-113.5c-12.82,0-23.25-10.43-23.25-23.25v-219.75c0-0.276 0.225-0.5 0.5-0.5h159c0.275,0 0.5,0.224 0.5,0.5v219.75z" />
+                                    <path
+                                        d="m187.875,34.755h-108.25c-3.313,0-6,2.687-6,6v38.053c0,3.313 2.687,6 6,6h108.25c3.313,0 6-2.687 6-6v-38.053c0-3.314-2.687-6-6-6zm-6,38.053h-96.25v-26.053h96.25v26.053z" />
+                                    <path
+                                        d="m103.284,161.077h-23.659c-3.313,0-6,2.687-6,6v23.507c0,3.313 2.687,6 6,6h23.659c3.313,0 6-2.687 6-6v-23.507c1.42109e-14-3.313-2.686-6-6-6zm-6,23.507h-11.659v-11.507h11.659v11.507z" />
+                                    <path
+                                        d="m145.729,161.077h-23.659c-3.313,0-6,2.687-6,6v23.507c0,3.313 2.687,6 6,6h23.658c3.313,0 6-2.687 6-6v-23.507c0.001-3.313-2.686-6-5.999-6zm-6,23.507h-11.659v-11.507h11.658v11.507z" />
+                                    <path
+                                        d="m103.284,120.099h-23.659c-3.313,0-6,2.687-6,6v23.507c0,3.313 2.687,6 6,6h23.659c3.313,0 6-2.687 6-6v-23.507c1.42109e-14-3.313-2.686-6-6-6zm-6,23.507h-11.659v-11.507h11.659v11.507z" />
+                                    <path
+                                        d="m145.729,120.099h-23.659c-3.313,0-6,2.687-6,6v23.507c0,3.313 2.687,6 6,6h23.658c3.313,0 6-2.687 6-6v-23.507c0.001-3.313-2.686-6-5.999-6zm-6,23.507h-11.659v-11.507h11.658v11.507z" />
+                                    <path
+                                        d="m187.875,120.099h-23.659c-3.313,0-6,2.687-6,6v23.507c0,3.313 2.687,6 6,6h23.659c3.313,0 6-2.687 6-6v-23.507c0-3.313-2.687-6-6-6zm-6,23.507h-11.659v-11.507h11.659v11.507z" />
+                                    <path
+                                        d="m103.284,202.792h-23.659c-3.313,0-6,2.687-6,6v23.507c0,3.313 2.687,6 6,6h23.659c3.313,0 6-2.687 6-6v-23.507c1.42109e-14-3.314-2.686-6-6-6zm-6,23.507h-11.659v-11.507h11.659v11.507z" />
+                                    <path
+                                        d="m145.729,202.792h-23.659c-3.313,0-6,2.687-6,6v23.507c0,3.313 2.687,6 6,6h23.658c3.313,0 6-2.687 6-6v-23.507c0.001-3.314-2.686-6-5.999-6zm-6,23.507h-11.659v-11.507h11.658v11.507z" />
+                                    <path
+                                        d="m187.875,161.077h-23.659c-3.313,0-6,2.687-6,6v65.222c0,3.313 2.687,6 6,6h23.659c3.313,0 6-2.687 6-6v-65.222c0-3.313-2.687-6-6-6zm-6,65.222h-11.659v-53.222h11.659v53.222z" />
+                                </g>
+                            </svg></div>
+                    </div>
+
                 </div>
-                <div class="text"><span>Shape</span><div class="calc-text"><span>Calculator</span><svg fill="white" width="17px" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 267.5 267.5" enable-background="new 0 0 267.5 267.5">
-  <g>
-    <path d="m213.25,0h-159c-6.893,0-12.5,5.607-12.5,12.5v219.75c0,19.437 15.813,35.25 35.25,35.25h113.5c19.437,0 35.25-15.813 35.25-35.25v-219.75c0-6.893-5.607-12.5-12.5-12.5zm.5,232.25c0,12.82-10.43,23.25-23.25,23.25h-113.5c-12.82,0-23.25-10.43-23.25-23.25v-219.75c0-0.276 0.225-0.5 0.5-0.5h159c0.275,0 0.5,0.224 0.5,0.5v219.75z"/>
-    <path d="m187.875,34.755h-108.25c-3.313,0-6,2.687-6,6v38.053c0,3.313 2.687,6 6,6h108.25c3.313,0 6-2.687 6-6v-38.053c0-3.314-2.687-6-6-6zm-6,38.053h-96.25v-26.053h96.25v26.053z"/>
-    <path d="m103.284,161.077h-23.659c-3.313,0-6,2.687-6,6v23.507c0,3.313 2.687,6 6,6h23.659c3.313,0 6-2.687 6-6v-23.507c1.42109e-14-3.313-2.686-6-6-6zm-6,23.507h-11.659v-11.507h11.659v11.507z"/>
-    <path d="m145.729,161.077h-23.659c-3.313,0-6,2.687-6,6v23.507c0,3.313 2.687,6 6,6h23.658c3.313,0 6-2.687 6-6v-23.507c0.001-3.313-2.686-6-5.999-6zm-6,23.507h-11.659v-11.507h11.658v11.507z"/>
-    <path d="m103.284,120.099h-23.659c-3.313,0-6,2.687-6,6v23.507c0,3.313 2.687,6 6,6h23.659c3.313,0 6-2.687 6-6v-23.507c1.42109e-14-3.313-2.686-6-6-6zm-6,23.507h-11.659v-11.507h11.659v11.507z"/>
-    <path d="m145.729,120.099h-23.659c-3.313,0-6,2.687-6,6v23.507c0,3.313 2.687,6 6,6h23.658c3.313,0 6-2.687 6-6v-23.507c0.001-3.313-2.686-6-5.999-6zm-6,23.507h-11.659v-11.507h11.658v11.507z"/>
-    <path d="m187.875,120.099h-23.659c-3.313,0-6,2.687-6,6v23.507c0,3.313 2.687,6 6,6h23.659c3.313,0 6-2.687 6-6v-23.507c0-3.313-2.687-6-6-6zm-6,23.507h-11.659v-11.507h11.659v11.507z"/>
-    <path d="m103.284,202.792h-23.659c-3.313,0-6,2.687-6,6v23.507c0,3.313 2.687,6 6,6h23.659c3.313,0 6-2.687 6-6v-23.507c1.42109e-14-3.314-2.686-6-6-6zm-6,23.507h-11.659v-11.507h11.659v11.507z"/>
-    <path d="m145.729,202.792h-23.659c-3.313,0-6,2.687-6,6v23.507c0,3.313 2.687,6 6,6h23.658c3.313,0 6-2.687 6-6v-23.507c0.001-3.314-2.686-6-5.999-6zm-6,23.507h-11.659v-11.507h11.658v11.507z"/>
-    <path d="m187.875,161.077h-23.659c-3.313,0-6,2.687-6,6v65.222c0,3.313 2.687,6 6,6h23.659c3.313,0 6-2.687 6-6v-65.222c0-3.313-2.687-6-6-6zm-6,65.222h-11.659v-53.222h11.659v53.222z"/>
-  </g>
-</svg></div> </div>
+                <div class="nav-info">
+                    <button class="signIn">Sign In</button>
 
-            </div>
-            <div class="nav-info">
-                <button class="signIn">Sign In</button>
-
-            </div>
-        </nav>
-    </header>
-    <main>  
+                </div>
+            </nav>
+        </header>
+        <main>
             <div class="main-body">
-               
+
                 <div class="main-body-intro">
                     <span>Calculate Any Shape, Instantly</span>
-                    <span>From simple circles to complex polyhedrons, get accurate calculations for area, perimeter, volume, and surface area in seconds.</span>
+                    <span>From simple circles to complex polyhedrons, get accurate calculations for area, perimeter,
+                        volume, and surface area in seconds.</span>
 
 
                 </div>
                 <div class="main-body-shapeopt">
-                     <a href="2D.html">
-                    <div class="twoD-shape">
-                        <div class="twoD-Logo"><svg color="rgb(9, 30, 40)" xmlns="http://www.w3.org/2000/svg" width="84" height="84" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-layers w-16 h-16 mb-4 relative z-10" aria-hidden="true"><path d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z"></path><path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12"></path><path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17"></path></svg></div>
-                        <div class="twoD-body-text">
-                            <span class="D-shape-text">2D Shapes </span>
+                    <a href="2D.html">
+                        <div class="twoD-shape">
+                            <div class="twoD-Logo"><svg color="rgb(9, 30, 40)" xmlns="http://www.w3.org/2000/svg"
+                                    width="84" height="84" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                                    class="lucide lucide-layers w-16 h-16 mb-4 relative z-10" aria-hidden="true">
+                                    <path
+                                        d="M12.83 2.18a2 2 0 0 0-1.66 0L2.6 6.08a1 1 0 0 0 0 1.83l8.58 3.91a2 2 0 0 0 1.66 0l8.58-3.9a1 1 0 0 0 0-1.83z">
+                                    </path>
+                                    <path d="M2 12a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 12">
+                                    </path>
+                                    <path d="M2 17a1 1 0 0 0 .58.91l8.6 3.91a2 2 0 0 0 1.65 0l8.58-3.9A1 1 0 0 0 22 17">
+                                    </path>
+                                </svg></div>
+                            <div class="twoD-body-text">
+                                <span class="D-shape-text">2D Shapes </span>
+                            </div>
                         </div>
-                    </div> </a>
-                     <a href="3D.html">
-                    <div class="threeD-shape">
-                        <div class="threeD-logo"> <svg color=" rgb(33, 29, 36)" xmlns="http://www.w3.org/2000/svg" width="84" height="84" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-box w-16 h-16 mb-4 relative z-10" aria-hidden="true"><path d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z"></path><path d="m3.3 7 8.7 5 8.7-5"></path><path d="M12 22V12"></path></svg></div>
-                        <div class="threeD-body-text">
-                            <span class="D-shape-text">3D Shapes </span>
-                        </div> </a>
-                    </div>
+                    </a>
+                    <a href="3D.html">
+                        <div class="threeD-shape">
+                            <div class="threeD-logo"> <svg color=" rgb(33, 29, 36)" xmlns="http://www.w3.org/2000/svg"
+                                    width="84" height="84" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                    stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"
+                                    class="lucide lucide-box w-16 h-16 mb-4 relative z-10" aria-hidden="true">
+                                    <path
+                                        d="M21 8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16Z">
+                                    </path>
+                                    <path d="m3.3 7 8.7 5 8.7-5"></path>
+                                    <path d="M12 22V12"></path>
+                                </svg></div>
+                            <div class="threeD-body-text">
+                                <span class="D-shape-text">3D Shapes </span>
+                            </div>
+                    </a>
                 </div>
-                <div class="main-footer">
-                    <div class="main-foot">
-                        <div class="logos" style="background: linear-gradient(135deg, rgb(249, 232, 38), rgb(246, 148, 37) )"><svg color="white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-zap w-6 h-6 text-white" aria-hidden="true"><path d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z"></path></svg></div>
-                        <h3>Lightning Fast</h3>
-                        
-                    </div>
-                    <div class="main-foot">
-                        <div class="logos" style="background: linear-gradient(135deg, rgb(1, 134, 81), rgb(86, 241, 55) )"><svg color="white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-book-open w-6 h-6 text-white" aria-hidden="true"><path d="M12 7v14"></path><path d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"></path></svg></div>
-                        <h3>Learn As You Go</h3>
-                        
-                    </div>
-                    <div class="main-foot">
-                        <div class="logos" style="background: linear-gradient(135deg, rgb(0, 225, 255), rgb(44, 102, 249) )"><svg color="white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-smartphone w-6 h-6 text-white" aria-hidden="true"><rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect><path d="M12 18h.01"></path></svg></div>
-                        <h3>Works Everywhere</h3>
-                        
-                    </div>
-                    <div class="main-foot">
-                        <div class="logos" style="background: linear-gradient(135deg, rgb(227, 2, 2), rgb(241, 144, 95) )" ><svg color="white" fill="red" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-share2 lucide-share-2 w-6 h-6 text-white" aria-hidden="true"><circle cx="18" cy="5" r="3"></circle><circle cx="6" cy="12" r="3"></circle><circle cx="18" cy="19" r="3"></circle><line x1="8.59" x2="15.42" y1="13.51" y2="17.49"></line><line x1="15.41" x2="8.59" y1="6.51" y2="10.49"></line></svg></div>
-                        <h3>Easy Sharing</h3>
-                        
-                    </div>
-                   
+            </div>
+            <div class="main-footer">
+                <div class="main-foot">
+                    <div class="logos"
+                        style="background: linear-gradient(135deg, rgb(249, 232, 38), rgb(246, 148, 37) )"><svg
+                            color="white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" class="lucide lucide-zap w-6 h-6 text-white" aria-hidden="true">
+                            <path
+                                d="M4 14a1 1 0 0 1-.78-1.63l9.9-10.2a.5.5 0 0 1 .86.46l-1.92 6.02A1 1 0 0 0 13 10h7a1 1 0 0 1 .78 1.63l-9.9 10.2a.5.5 0 0 1-.86-.46l1.92-6.02A1 1 0 0 0 11 14z">
+                            </path>
+                        </svg></div>
+                    <h3>Lightning Fast</h3>
 
                 </div>
-                
+                <div class="main-foot">
+                    <div class="logos" style="background: linear-gradient(135deg, rgb(1, 134, 81), rgb(86, 241, 55) )">
+                        <svg color="white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" class="lucide lucide-book-open w-6 h-6 text-white"
+                            aria-hidden="true">
+                            <path d="M12 7v14"></path>
+                            <path
+                                d="M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z">
+                            </path>
+                        </svg></div>
+                    <h3>Learn As You Go</h3>
+
+                </div>
+                <div class="main-foot">
+                    <div class="logos"
+                        style="background: linear-gradient(135deg, rgb(0, 225, 255), rgb(44, 102, 249) )"><svg
+                            color="white" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                            fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                            stroke-linejoin="round" class="lucide lucide-smartphone w-6 h-6 text-white"
+                            aria-hidden="true">
+                            <rect width="14" height="20" x="5" y="2" rx="2" ry="2"></rect>
+                            <path d="M12 18h.01"></path>
+                        </svg></div>
+                    <h3>Works Everywhere</h3>
+
+                </div>
+                <div class="main-foot">
+                    <div class="logos" style="background: linear-gradient(135deg, rgb(227, 2, 2), rgb(241, 144, 95) )">
+                        <svg color="white" fill="red" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+                            viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round"
+                            class="lucide lucide-share2 lucide-share-2 w-6 h-6 text-white" aria-hidden="true">
+                            <circle cx="18" cy="5" r="3"></circle>
+                            <circle cx="6" cy="12" r="3"></circle>
+                            <circle cx="18" cy="19" r="3"></circle>
+                            <line x1="8.59" x2="15.42" y1="13.51" y2="17.49"></line>
+                            <line x1="15.41" x2="8.59" y1="6.51" y2="10.49"></line>
+                        </svg></div>
+                    <h3>Easy Sharing</h3>
+
+                </div>
+
+
             </div>
+
+    </div>
 
     </main>
     <footer>
         <div class="foot-info">
-         <div class="foot-box">
-            <div class="foot-img-text">
-            <img src="Assets/index-assets/footer-name.png" alt="SBP" width="100rem" height="50rem">
-            <h4><b>ShapeCalc - Geometry Tool</b></h4> </div>
-            <p>A simple educational tool built to calculate and visualize 2D and 3D shapes.</p>
-            <p class="author">
-              Created by <strong>Sharma Bhanuprakash</strong> — First Year Project (2025)
-            </p>
-         </div>
-
-         <div class="copyright-band">
-            <span>© 2025 Bhanuprakash Sharma — For educational use only.</span>
-            <div class="minilogos">
-                <a href="https://github.com/SBP-Learner" target="_blank">
-                <div class="min-log" id="github">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github w-5 h-5" aria-hidden="true"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path><path d="M9 18c-4.51 2-5-2-7-2"></path></svg>
-                </div> </a>
-                <a href="https://www.linkedin.com/in/bhanuprakash-sharma-5aa275374?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">
-                <div class="min-log" id="linkedin">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-linkedin w-5 h-5" aria-hidden="true"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect width="4" height="12" x="2" y="9"></rect><circle cx="4" cy="4" r="2"></circle></svg>
-                </div> </a>
-                <a href="mailto:sbhanuprakash971@gmail.com" target="_blank">
-                <div class="min-log" id="mail">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-mail w-5 h-5" aria-hidden="true"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path><rect x="2" y="4" width="20" height="16" rx="2"></rect></svg>
-                </div> </a>
-                
+            <div class="foot-box">
+                <div class="foot-img-text">
+                    <img src="Assets/index-assets/footer-name.png" alt="SBP" width="100rem" height="50rem">
+                    <h4><b>ShapeCalc - Geometry Tool</b></h4>
+                </div>
+                <p>A simple educational tool built to calculate and visualize 2D and 3D shapes.</p>
+                <p class="author">
+                    Created by <strong>Sharma Bhanuprakash</strong> — First Year Project (2025)
+                </p>
             </div>
-         </div>
+
+            <div class="copyright-band">
+                <span>© 2025 Bhanuprakash Sharma — For educational use only.</span>
+                <div class="minilogos">
+                    <a href="https://github.com/SBP-Learner" target="_blank">
+                        <div class="min-log" id="github">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-github w-5 h-5" aria-hidden="true">
+                                <path
+                                    d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4">
+                                </path>
+                                <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="https://www.linkedin.com/in/bhanuprakash-sharma-5aa275374?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                        target="_blank">
+                        <div class="min-log" id="linkedin">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-linkedin w-5 h-5" aria-hidden="true">
+                                <path
+                                    d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z">
+                                </path>
+                                <rect width="4" height="12" x="2" y="9"></rect>
+                                <circle cx="4" cy="4" r="2"></circle>
+                            </svg>
+                        </div>
+                    </a>
+                    <a href="mailto:sbhanuprakash971@gmail.com" target="_blank">
+                        <div class="min-log" id="mail">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
+                                fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" class="lucide lucide-mail w-5 h-5" aria-hidden="true">
+                                <path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"></path>
+                                <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+                            </svg>
+                        </div>
+                    </a>
+
+                </div>
+            </div>
         </div>
     </footer>
-    
+
     </div>
     <script src="javascript/script.js"></script>
 </body>
+
 </html>
