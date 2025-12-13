@@ -41,6 +41,7 @@ nav {
     margin-left: .5rem;
     transition: transform 0.3 ease, 0.3 ease;
     cursor: pointer;
+    padding-top: 0.5pc;
 }
 .right{
     display: flex;
