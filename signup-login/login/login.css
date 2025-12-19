@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    color: white;
+    background: linear-gradient(180deg, #005eff6c, #fe00b24d);
+    background-repeat: no-repeat;
+    color: black;
+}
+
+.wrapper {
+    max-width: 470px;
+    margin: auto;
+    font-family: sans-serif;
+    overflow: hidden;
+    height: 100vh;
+    padding: 1.5rem;
+
+}
+
+.login-page {
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+    margin-top: 4rem;
+    border-radius: .4rem;
+    padding: 1rem;
+    padding-bottom: 2rem;
+}
+
+.text {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.head-txt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.later-txt {
+    font-size: 0.9rem;
+    opacity: 0.7;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+
+}
+
+
+label {
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.bottom-txt {
+    font-size: .8rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .2rem;
+    margin-top: 1rem;
+}
+
+.ln {
+    padding: .8rem 1.5rem;
+    border-radius: .3rem;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+    background: linear-gradient(135deg, #4b5fcf, #5a3ea1);
+}
+
+.back {
+    padding: .6rem 1.3rem;
+    padding-left: .4rem;
+    border-radius: .3rem;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-size: 1.2rem;
+    background: linear-gradient(135deg, #5f72bd, #7b68ee);
+
+}
+
+button:hover {
+    transform: translateY(-2px) scale(1.03);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.password-field {
+    position: relative;
+    width: 100%;
+
+}
+input {
+    width: 100%;
+    font-size: 16px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 12px 42px 12px 12px;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    opacity: 0.7;
+}
+
+.toggle-password:hover {
+    opacity: 1;
+}
+
+.eye-open {
+    display: none;
+}
