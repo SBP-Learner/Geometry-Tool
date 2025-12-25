@@ -48,8 +48,11 @@ Also, this helps me understand formulas better by turning them into code.
 
 
 ## Screenshots
-[https://github.com/user-attachments/assets/9c58b636-fa48-40d4-8377-d7bcc82b2ddc]
-[https://github.com/user-attachments/assets/22826243-5b95-42a7-8034-eba86c702565]
+[]
+[]
+[]
+[]
+[]
 
 
 
