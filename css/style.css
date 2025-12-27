@@ -287,3 +287,7 @@ footer {
     display: flex;
     align-items: center;
 }
+a,
+button {
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
