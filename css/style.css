@@ -228,7 +228,7 @@ footer {
 .main-foot {
     width: 120px;
     height: 100px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     border-radius: 15px;
     margin: 0.5rem;
     padding: 0.5rem;
@@ -239,6 +239,7 @@ footer {
     align-items: center;
     flex-direction: column;
     text-align: center;
+    gap: .5rem;
 }
 
 .copyright-band {

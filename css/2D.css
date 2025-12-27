@@ -43,40 +43,52 @@ nav {
     cursor: pointer;
     padding-top: 0.5pc;
 }
-.right{
+
+.right {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
-.right-text{
+
+.right-text {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     margin-left: 1rem;
+    color: #ffffff;
+    text-shadow: 1px 1px 2px black;
 }
-.right-text :nth-child(1){
-    font-size: 2rem;
+
+.right-text :nth-child(1) {
+    font-size: 2.2rem;
     font-weight: 600;
 }
-.right-text :nth-child(2){
-    font-size: 0.8rem;
+
+.right-text :nth-child(2) {
+    font-size: 1rem;
     font-weight: 600;
 }
+
 button img:hover {
     transform: scale(1.2);
 }
-.left{
+
+.left {
     translate: transform 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.left svg:hover{
+
+.left svg:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
-.left svg{
-    width: 60px;
-    height: 60px;
+
+.left svg {
+    width: 45px;
 }
 
 .upperbody {
@@ -154,21 +166,10 @@ li:hover {
     text-shadow: 2px 2px #a0712b;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
 }
+
 .status:hover {
-        transform: scale(1.1);
+    transform: scale(1.1);
 }
-
-.lowerbody {
-    width: 100%;
-}
-
-.calculation {
-    height: 20rem;
-    background-color: white;
-    border-radius: 10px;
-    margin-bottom: 3rem;
-}
-
 
 footer {
     background-color: black;
@@ -226,6 +227,7 @@ a {
     display: flex;
     align-items: center;
 }
+
 .premium-card {
     position: relative;
     width: 280px;
@@ -317,7 +319,7 @@ a {
     font-weight: 500;
     letter-spacing: 0.3px;
     user-select: none;
-        transition: transform 0.3s ease;
+    transition: transform 0.3s ease;
 }
 
 .coming-soon {
@@ -381,4 +383,136 @@ a {
     100% {
         left: 100%;
     }
+}
+
+.main-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+    color: wheat;
+    font-weight: 500;
+    margin: 2rem 0;
+    text-shadow: 1px 1px 2px black;
+}
+
+#first {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.main-bottom {
+    flex-direction: column;
+    margin: .5rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 320px;
+    margin-top: 60px;
+    padding: 40px 0;
+    background: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(6px);
+    border-radius: 24px;
+}
+
+.slider-head {
+    text-align: center;
+    padding: .5rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+    color: rgba(255, 255, 255, 0.906);
+    font-size: 1.1rem;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);
+}
+
+.slider img {
+    width: 320px;
+    height: 220px;
+    border-radius: .5rem;
+}
+
+.card-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: row;
+    width: 320px;
+    overflow: hidden;
+}
+
+.slider {
+    display: flex;
+    width: 320px;
+    transition: transform 0.5s ease;
+    align-items: center;
+}
+
+.shape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    transition: transform 0.5s ease;
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.slide-button {
+    position: absolute;
+    z-index: 10;
+    bottom: 40%;
+    padding: 0 .5rem;
+    font-size: 3rem;
+    background: linear-gradient(120deg, rgba(0, 234, 255, 0.626), rgba(123, 0, 255, 0.438));
+    border-radius: .3rem;
+    color: white;
+    transition: transform .3s ease;
+    padding-bottom: .3rem;
+    border: none;
+    box-shadow: 0 0 15px rgba(212, 162, 74, 0.5);
+
+}
+
+.previous {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.btn {
+    color: white;
+    background-color: black;
+    padding: .6rem .8rem;
+    border-radius: .5rem;
+    transition: transform .3s ease;
+    font-weight: 500;
+    font-size: 1.1rem;
+    border: none;
+}
+
+.btn:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(212, 162, 74, 0.5);
+}
+.slide-button:hover {
+    transform: scale(1.1);
+}
+
+.shape p {
+    text-shadow: 1px 1px 2px black;
+    width: 100%;
+    padding: .5rem;
+    border-radius: .6rem;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(130deg, rgba(0, 200, 255, 0.532), rgb(0, 94, 255));
 }

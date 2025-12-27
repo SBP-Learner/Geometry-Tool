@@ -11,33 +11,38 @@
 
 <body>
     <div class="wrapper">
-<header>
-      <nav>
-        <div class="right">
-          <a href="index.html">
-            <button class="back">
-              <img width="20px" src="Assets/2D-assets/back.png" alt="back-arrow">
-            </button> </a>
-            <div class="right-text">
-                <span>3D</span><span>Shapes</span>
-            </div>
-        </div>
-        <div class="left">
-            <svg width="48" height="48" viewBox="0 0 48 48" fill="none"
-     xmlns="http://www.w3.org/2000/svg">
-  
-  <rect x="6" y="10" width="36" height="6" rx="3" fill="#000"/>
-  <rect x="6" y="21" width="36" height="6" rx="3" fill="#000"/>
-  <rect x="6" y="32" width="36" height="6" rx="3" fill="#000"/>
+        <header>
+            <nav>
+                <div class="right">
+                    <a href="index.html">
+                        <button class="back">
+                            <img width="20px" src="Assets/2D-assets/back.png" alt="back-arrow">
+                        </button> </a>
+                    <div class="right-text">
+                        <span>3D</span><span>Shapes</span>
+                    </div>
+                </div>
+                <div class="left">
+                    <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
 
-</svg>
+                        <rect x="6" y="10" width="36" height="6" rx="3" fill="#000" />
+                        <rect x="6" y="21" width="36" height="6" rx="3" fill="#000" />
+                        <rect x="6" y="32" width="36" height="6" rx="3" fill="#000" />
+
+                    </svg>
 
 
-        </div>
-      </nav>
-    </header>
+                </div>
+            </nav>
+        </header>
         <main>
             <section class="upperbody">
+                <div class="main-text">
+                    <span id="first"> 3D Shapes</span>
+                    <span id="second">Understand faces, edges, vertices, surface area, and volume of common 3D
+                        shapes.</span>
+
+                </div>
                 <div class="selections">
                     <div class="title Basic">Basic Shapes</div>
                     <ul class="Basic-shapes">
@@ -164,14 +169,67 @@
                         </div>
                     </div>
                     </ul>
+                    <div class="main-bottom">
+                        <div class="slider-head">
+                            <h2 class="slider-title">Explore All 3D Shapes</h2>
+                            <p class="slider-subtitle">
+                                Swipe through shapes and learn more about each one
+                            </p>
+
+                        </div>
+                        <div class="card-slider">
+                            <button class="slide-button previous" onclick="prev()">‹</button>
+                            <div class="slider" id="slide">
+                                <div class="shape cube">
+                                    <p>Cube</p>
+                                    <img src="/Geometry-Tool/Assets/3D-assets/cube.png" alt="cube">
+                                    <a href="https://en.wikipedia.org/wiki/Cube" target="_blank"><button
+                                            class="btn cone">Know more↗</button></a>
+                                </div>
+                                <div class="shape cuboid">
+                                    <p>Cubiod</p>
+                                    <img src="/Geometry-Tool/Assets/3D-assets/cuboid.png" alt="cuboid">
+                                    <a href="https://en.wikipedia.org/wiki/Cubiod" target="_blank"><button
+                                            class="btn cubd">Know more↗</button></a>
+                                </div>
+                                <div class="shape Sphere">
+                                    <p>Sphere</p>
+                                    <img src="/Geometry-Tool/Assets/3D-assets/sphere.png" alt="Sphere">
+                                    <a href="https://en.wikipedia.org/wiki/Sphere" target="_blank"><button
+                                            class="btn sphere">Know more↗</button></a>
+                                </div>
+                                <div class="shape Cylinder">
+                                    <p>Cylinder</p>
+                                    <img src="/Geometry-Tool/Assets/3D-assets/cylinder.png" alt="Cylinder">
+
+                                    <a href="https://en.wikipedia.org/wiki/Cylinder" target="_blank"><button
+                                            class="btn cylinder">Know more↗</button></a>
+                                </div>
+
+                                <div class="shape Pyramid">
+                                    <p>Pyramid</p>
+                                    <img src="/Geometry-Tool/Assets/3D-assets/pyramid.png" alt="Pyramid">
+                                    <a href="https://en.wikipedia.org/wiki/Pyramid" target="_blank"><button
+                                            class="btn pyramind">Know more↗</button></a>
+                                </div>
+                                <div class="shape Cone">
+                                    <p>Cone</p>
+                                    <img src="/Geometry-Tool/Assets/3D-assets/cone.png" alt="Cone">
+                                    <a href="https://en.wikipedia.org/wiki/Cone" target="_blank"><button
+                                            class="btn cone">Know more↗</button></a>
+                                </div>
+                                <div class="shape Torus">
+                                    <p>Torus</p>
+                                    <img src="/Geometry-Tool/Assets/3D-assets/torus.png" alt="Torus">
+                                    <a href="https://en.wikipedia.org/wiki/Torus" target="_blank"><button
+                                            class="btn torus">Know more↗</button></a>
+                                </div>
+                            </div>
+                            <button class="slide-button next" onclick="next()">›</button>
+                        </div>
+                    </div>
                 </div>
 
-
-            </section>
-            <section class="lowerbody">
-                <div class="calculation">
-
-                </div>
 
             </section>
 
@@ -234,6 +292,7 @@
             </div>
         </footer>
     </div>
+    <script src="/Geometry-Tool/javascript/3D.js"></script>
 </body>
 
 </html>

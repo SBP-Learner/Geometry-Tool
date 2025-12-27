@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    color: white;
+    background: linear-gradient(180deg, #005eff6c, #fe00b24d);
+    background-repeat: no-repeat;
+}
+.wrapper {
+    max-width: 470px;
+    margin: auto;
+    font-family: sans-serif;
+    overflow: hidden;
+}
