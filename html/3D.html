@@ -17,7 +17,7 @@
                 <div class="right">
                     <a href="/Geometry-Tool/index.html">
                         <button class="back">
-                            <img width="20px" src="/Geometry-Tool/Assets/2D-assets/back.png" alt="back-arrow">
+                            <img width="25px" src="/Geometry-Tool/Assets/index-assets/back.png" alt="back-arrow">
                         </button> </a>
                     <div class="right-text">
                         <span>3D</span><span>Shapes</span>
@@ -73,97 +73,138 @@
                     <div class="title Basic">Basic Shapes</div>
                     <ul class="Basic-shapes">
                         <a href="/Geometry-Tool/html/3D-calc.html?shape=cube">
-                        <li>Cube<svg width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
-                                <defs>
-                                    <linearGradient id="cubeGrad" x1="0" y1="0" x2="1" y2="1">
-                                        <stop offset="0%" stop-color="#4f9cff" />
-                                        <stop offset="100%" stop-color="#6ee7f9" />
-                                    </linearGradient>
-                                </defs>
+                            <li>Cube<svg viewBox="0 0 100 100">
+                                    <defs>
+                                        <linearGradient id="cubeGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#56CCF2;stop-opacity:1" />
+                                            <stop offset="100%" style="stop-color:#2F80ED;stop-opacity:1" />
+                                        </linearGradient>
+                                        <linearGradient id="cubeGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#2F80ED;stop-opacity:1" />
+                                            <stop offset="100%" style="stop-color:#1e57a3;stop-opacity:1" />
+                                        </linearGradient>
+                                        <linearGradient id="cubeGrad3" x1="0%" y1="0%" x2="100%" y2="0%">
+                                            <stop offset="0%" style="stop-color:#56CCF2;stop-opacity:1" />
+                                            <stop offset="100%" style="stop-color:#2F80ED;stop-opacity:1" />
+                                        </linearGradient>
+                                    </defs>
+                                    <path d="M50 10 L90 30 L90 80 L50 100 L10 80 L10 30 Z" fill="url(#cubeGrad1)" />
+                                    <path d="M50 10 L10 30 L50 50 L90 30 Z" fill="#A6E4FF" />
+                                    <path d="M10 30 L50 50 L50 100 L10 80 Z" fill="url(#cubeGrad2)" />
+                                    <path d="M90 30 L50 50 L50 100 L90 80 Z" fill="url(#cubeGrad3)" />
+                                </svg>
+                            </li>
+                        </a>
+                        <a href="/Geometry-Tool/html/3D-calc.html?shape=cuboid">
+                            <li>Cuboid<svg viewBox="0 0 100 100">
+                                    <defs>
+                                        <linearGradient id="cuboidGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#D980FA;stop-opacity:1" />
+                                            <stop offset="100%" style="stop-color:#A848E3;stop-opacity:1" />
+                                        </linearGradient>
+                                        <linearGradient id="cuboidGrad2" x1="0%" y1="0%" x2="0%" y2="100%">
+                                            <stop offset="0%" style="stop-color:#A848E3;stop-opacity:1" />
+                                            <stop offset="100%" style="stop-color:#7c35a8;stop-opacity:1" />
+                                        </linearGradient>
+                                        <linearGradient id="cuboidGrad3" x1="0%" y1="0%" x2="100%" y2="0%">
+                                            <stop offset="0%" style="stop-color:#D980FA;stop-opacity:1" />
+                                            <stop offset="100%" style="stop-color:#A848E3;stop-opacity:1" />
+                                        </linearGradient>
+                                    </defs>
+                                    <path d="M10 35 L80 15 L100 35 L30 55 Z" fill="#EAB3FC" />
+                                    <path d="M10 35 L30 55 L30 90 L10 70 Z" fill="url(#cuboidGrad2)" />
+                                    <path d="M30 55 L100 35 L100 70 L30 90 Z" fill="url(#cuboidGrad1)" />
+                                </svg>
+                            </li>
+                        </a>
+                        <a href="/Geometry-Tool/html/3D-calc.html?shape=sphere">
+                            <li>Sphere<svg width="180" height="140" viewBox="0 0 180 140" fill="none"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <g transform="translate(40, 20)">
+                                        <circle cx="50" cy="50" r="50" fill="url(#sphere_grad)" />
+                                        <ellipse cx="50" cy="25" rx="30" ry="15" fill="white" fill-opacity="0.3" />
+                                    </g>
 
-                                <polygon points="40,60 80,40 120,60 80,80" fill="#8fd3f4" />
-                                <polygon points="40,60 40,100 80,120 80,80" fill="url(#cubeGrad)" />
-                                <polygon points="120,60 120,100 80,120 80,80" fill="#3b82f6" />
-                            </svg>
-                        </li></a>
-                        <li>Cuboid<svg width="180" height="140" viewBox="0 0 180 140"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <defs>
-                                    <linearGradient id="cuboidGrad" x1="0" y1="0" x2="1" y2="1">
-                                        <stop offset="0%" stop-color="#a78bfa" />
-                                        <stop offset="100%" stop-color="#f472b6" />
-                                    </linearGradient>
-                                </defs>
+                                    <defs>
+                                        <radialGradient id="sphere_grad" cx="0" cy="0" r="1"
+                                            gradientUnits="userSpaceOnUse"
+                                            gradientTransform="translate(30 30) scale(70)">
+                                            <stop stop-color="#00E5FF" />
+                                            <stop offset="0.7" stop-color="#2979FF" />
+                                            <stop offset="1" stop-color="#1565C0" />
+                                        </radialGradient>
+                                    </defs>
+                                </svg>
+                            </li>
+                        </a>
+                        <a href="/Geometry-Tool/html/3D-calc.html?shape=cylinder">
+                            <li>Cylinder<svg width="160" height="180" viewBox="0 0 160 180"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <defs>
+                                        <linearGradient id="cylGrad" x1="0" y1="0" x2="1" y2="0">
+                                            <stop offset="0%" stop-color="#34d399" />
+                                            <stop offset="100%" stop-color="#6ee7b7" />
+                                        </linearGradient>
+                                    </defs>
 
-                                <polygon points="40,50 120,50 150,70 70,70" fill="#ddd6fe" />
-                                <polygon points="40,50 40,100 70,120 70,70" fill="url(#cuboidGrad)" />
-                                <polygon points="70,70 150,70 150,120 70,120" fill="#8b5cf6" />
-                            </svg>
-                        </li>
-                        <li>Sphere<svg width="160" height="160" viewBox="0 0 160 160"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <defs>
-                                    <radialGradient id="sphereGrad" cx="30%" cy="30%" r="70%">
-                                        <stop offset="0%" stop-color="#fed7aa" />
-                                        <stop offset="100%" stop-color="#fb923c" />
-                                    </radialGradient>
-                                </defs>
+                                    <ellipse cx="80" cy="40" rx="45" ry="15" fill="#a7f3d0" />
+                                    <rect x="35" y="40" width="90" height="90" fill="url(#cylGrad)" />
+                                    <ellipse cx="80" cy="130" rx="45" ry="15" fill="#10b981" />
+                                </svg>
+                            </li>
+                        </a>
+                        <a href="/Geometry-Tool/html/3D-calc.html?shape=cone">
+                            <li>Cone<svg width="160" height="180" viewBox="0 0 160 180"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <defs>
+                                        <linearGradient id="coneGrad" x1="0" y1="0" x2="1" y2="1">
+                                            <stop offset="0%" stop-color="#fca5a5" />
+                                            <stop offset="100%" stop-color="#ef4444" />
+                                        </linearGradient>
+                                    </defs>
 
-                                <circle cx="80" cy="80" r="50" fill="url(#sphereGrad)" />
-                            </svg>
-                        </li>
-                        <li>Cylinder<svg width="160" height="180" viewBox="0 0 160 180"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <defs>
-                                    <linearGradient id="cylGrad" x1="0" y1="0" x2="1" y2="0">
-                                        <stop offset="0%" stop-color="#34d399" />
-                                        <stop offset="100%" stop-color="#6ee7b7" />
-                                    </linearGradient>
-                                </defs>
+                                    <polygon points="80,30 30,140 130,140" fill="url(#coneGrad)" />
+                                    <ellipse cx="80" cy="140" rx="50" ry="15" fill="#dc2626" />
+                                </svg>
+                            </li>
+                        </a>
+                        <a href="/Geometry-Tool/html/3D-calc.html?shape=pyramid">
+                            <li>Pyramid<svg width="160" height="160" viewBox="0 0 160 160"
+                                    xmlns="http://www.w3.org/2000/svg">
+                                    <defs>
+                                        <linearGradient id="pyrGrad" x1="0" y1="0" x2="1" y2="1">
+                                            <stop offset="0%" stop-color="#e5e7eb" />
+                                            <stop offset="100%" stop-color="#64748b" />
+                                        </linearGradient>
+                                    </defs>
 
-                                <ellipse cx="80" cy="40" rx="45" ry="15" fill="#a7f3d0" />
-                                <rect x="35" y="40" width="90" height="90" fill="url(#cylGrad)" />
-                                <ellipse cx="80" cy="130" rx="45" ry="15" fill="#10b981" />
-                            </svg>
-                        </li>
-                        <li>Cone<svg width="160" height="180" viewBox="0 0 160 180" xmlns="http://www.w3.org/2000/svg">
-                                <defs>
-                                    <linearGradient id="coneGrad" x1="0" y1="0" x2="1" y2="1">
-                                        <stop offset="0%" stop-color="#fca5a5" />
-                                        <stop offset="100%" stop-color="#ef4444" />
-                                    </linearGradient>
-                                </defs>
-
-                                <polygon points="80,30 30,140 130,140" fill="url(#coneGrad)" />
-                                <ellipse cx="80" cy="140" rx="50" ry="15" fill="#dc2626" />
-                            </svg>
-                        </li>
-                        <li>Pyramid<svg width="160" height="160" viewBox="0 0 160 160"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <defs>
-                                    <linearGradient id="pyrGrad" x1="0" y1="0" x2="1" y2="1">
-                                        <stop offset="0%" stop-color="#e5e7eb" />
-                                        <stop offset="100%" stop-color="#64748b" />
-                                    </linearGradient>
-                                </defs>
-
-                                <polygon points="80,30 30,120 80,100" fill="#cbd5e1" />
-                                <polygon points="80,30 80,100 130,120" fill="url(#pyrGrad)" />
-                                <polygon points="30,120 80,100 130,120" fill="#475569" />
-                            </svg>
-                        </li>
-                        <li>Torus<svg width="160" height="160" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg">
-                                <defs>
-                                    <radialGradient id="torusGrad">
-                                        <stop offset="40%" stop-color="#a5b4fc" />
-                                        <stop offset="100%" stop-color="#6366f1" />
-                                    </radialGradient>
-                                </defs>
-
-                                <circle cx="80" cy="80" r="50" fill="url(#torusGrad)" />
-                                <circle cx="80" cy="80" r="25" fill="#fff" />
-                            </svg>
-                        </li>
+                                    <polygon points="80,30 30,120 80,100" fill="#cbd5e1" />
+                                    <polygon points="80,30 80,100 130,120" fill="url(#pyrGrad)" />
+                                    <polygon points="30,120 80,100 130,120" fill="#475569" />
+                                </svg>
+                            </li>
+                        </a>
+                        <a href="/Geometry-Tool/html/3D-calc.html?shape=torus">
+                            <li>Torus<svg viewBox="0 0 100 100">
+                                    <defs>
+                                        <radialGradient id="torusGrad" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+                                            <stop offset="60%" style="stop-color:transparent;stop-opacity:1" />
+                                            <stop offset="70%" style="stop-color:#E100FF;stop-opacity:1" />
+                                            <stop offset="100%" style="stop-color:#7F00FF;stop-opacity:1" />
+                                        </radialGradient>
+                                        <filter id="torusGlow">
+                                            <feGaussianBlur stdDeviation="2" result="coloredBlur" />
+                                            <feMerge>
+                                                <feMergeNode in="coloredBlur" />
+                                                <feMergeNode in="SourceGraphic" />
+                                            </feMerge>
+                                        </filter>
+                                    </defs>
+                                    <circle cx="50" cy="50" r="35" fill="url(#torusGrad)" filter="url(#torusGlow)"
+                                        stroke="#C77EFF" stroke-width="2" />
+                                </svg>
+                            </li>
+                        </a>
 
                     </ul>
                     <div class="title Advance">Advanced Shapes</div>
