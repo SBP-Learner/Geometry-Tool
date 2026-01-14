@@ -130,15 +130,15 @@ li {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    margin: .2rem;
     border-radius: 12px;
-    padding: 1.5rem 2.2rem;
+    padding: 1rem;
     background-color: rgba(0, 0, 0, 0.607);
     font-weight: bold;
     transition: transform 0.3s ease;
     gap: 1rem;
-    height: 10rem;
-    width: 10rem;
+    height: 9rem;
+    width: 9rem;
 }
 
 li:hover {

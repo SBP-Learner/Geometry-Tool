@@ -273,6 +273,36 @@ nav {
     transform: scale(1.1) translateY(-3px);
     box-shadow: 0 3px 10px rgba(69, 68, 68, 0.6);
 }
+.main-page {
+    background: rgba(255, 255, 255, 0.148);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    display: flex;
+    padding: 1rem;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shape-holder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+        filter: drop-shadow(1px 1px 4px rgb(0, 0, 0));
+}
+.main-initial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.s-txt{
+    font-size: 3rem;
+    font-weight: 700;
+    
+}
 
 
 a,
