@@ -6,6 +6,9 @@ const stext = document.getElementById("shape-name");
 const back = document.getElementById("back");
 const shapeCont = document.getElementById("visual-shape");
 const main_shape_txt = document.getElementById("shape-txt"); 
+const form = document.getElementById("inp-unit");
+const m_init = document.getElementById("main-init");
+const res_btn = document.getElementById("res-btn")
 
 if (Shape === "square") {
     stext.innerText = "Square";
@@ -14,6 +17,7 @@ if (Shape === "square") {
     main_shape_txt.style.cssText = "background: linear-gradient(to right, #00f2fe, #badfffff); -webkit-background-clip: text; background-clip: text; color: transparent; filter: drop-shadow(1px 1px 2px rgba(76, 76, 76, 1))";
     back.style.background = bg[Shape];
     shapeCont.innerHTML = twoD[Shape];
+    form.innerHTML = inp[Shape];
 }
 else if (Shape === "rectangle") {
     stext.innerText = "Rectangle";
@@ -22,6 +26,7 @@ else if (Shape === "rectangle") {
     main_shape_txt.style.cssText = bg[Shape];
     back.style.background = "linear-gradient(to right, #ff9a44, #fc6076)";
     shapeCont.innerHTML = twoD[Shape];
+    form.innerHTML = inp[Shape];
 }
 else if (Shape === "circle") {
     stext.innerText = "Circle";
@@ -30,6 +35,7 @@ else if (Shape === "circle") {
     main_shape_txt.style.cssText = bg[Shape];
     back.style.background = "linear-gradient(to right, #00c6fb, #005bea)";
     shapeCont.innerHTML = twoD[Shape];
+    form.innerHTML = inp[Shape];
 }
 else if (Shape === "triangle") {
     stext.innerText = "Triangle";
@@ -38,6 +44,7 @@ else if (Shape === "triangle") {
     main_shape_txt.style.cssText = bg[Shape];
     back.style.background = "linear-gradient(to bottom, #E6E9F0, #536976)";
     shapeCont.innerHTML = twoD[Shape];
+    form.innerHTML = inp[Shape];
 }
 else if (Shape === "rhombus") {
     stext.innerText = "Rhombus";
@@ -46,6 +53,7 @@ else if (Shape === "rhombus") {
     main_shape_txt.style.cssText = bg[Shape];
     back.style.background = "linear-gradient(to right, #d387ab, #b721ff)";
     shapeCont.innerHTML = twoD[Shape];
+    form.innerHTML = inp[Shape];
 }
 else if (Shape === "trapezium") {
     stext.innerText = "Traqezium";
@@ -54,6 +62,7 @@ else if (Shape === "trapezium") {
     main_shape_txt.style.cssText = bg[Shape];
     back.style.background = "linear-gradient(to right, #43e97b, #38f9d7)";
     shapeCont.innerHTML = twoD[Shape];
+    form.innerHTML = inp[Shape];
 }
 else if (Shape === "kite") {
     stext.innerText = "Kite";
@@ -62,27 +71,8 @@ else if (Shape === "kite") {
     main_shape_txt.style.cssText =bg[Shape]
     back.style.background = "linear-gradient(to right, #f83600, #f9d423)";
     shapeCont.innerHTML = twoD[Shape];
+    form.innerHTML = inp[Shape];
 }
 else {
     console.error("Error selecting shape.")
 }
-
-// code for 3D shapes
-
-/* if (Shape === "square") {
-}
-else if (Shape === "rectangle") {
-}
-else if (Shape === "circle") {
-}
-else if (Shape === "triangle") {
-}
-else if (Shape === "rhombus") {
-}
-else if (Shape === "trapezium") {
-}
-else if (Shape === "kite") {
-}
-else {
-    console.error("Error selecting shape.")
-} */
