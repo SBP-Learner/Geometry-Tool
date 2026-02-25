@@ -392,19 +392,8 @@ input:focus, select:focus {
 label {
     width: 100%;
 }
-.select {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-    margin-bottom: 1rem;
-}
-.select button{
-    background-color: black;
-    color: white;
-    padding: .5rem 1rem ;
-    border-radius: .5rem;
-    border: none;
-}
+
+
 
 
 

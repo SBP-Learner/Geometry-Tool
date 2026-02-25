@@ -227,12 +227,20 @@ const inp = {
                             <option value="inch">inch</option>
                         </select></div>
                         </form>`,
-  triangle: ` <div class="select">
-                    <button onclick="colorchange()" id="first_btn" class="base_height">Base - Height</button>
-                    <button onclick= "colorchange()" id="second_btn" class="Herons_formula">Heron's Formula</button>
-                </div>
-  <form id="form" class="input-cont">
-  <label for="inp" class="inp-init"> Enter radius (r) : </label>
+  triangle: `<form id="form" class="input-cont">
+  <label for="inp" class="inp-init"> Enter base(b) : </label>
+  <div class="inp-unit">
+    <input id="inp" class="input">
+    <select name="inp" class="unit">
+                            <option value="cm">cm</option>
+                            <option value="m">m</option>
+                            <option value="mm">mm</option>
+                            <option value="km">km</option>
+                            <option value="ft">ft</option>
+                            <option value="inch">inch</option>
+                        </select></div>
+                        </form><form id="form" class="input-cont">
+  <label for="inp" class="inp-init"> Enter height (h) : </label>
   <div class="inp-unit">
     <input id="inp" class="input">
     <select name="inp" class="unit">
@@ -244,7 +252,155 @@ const inp = {
                             <option value="inch">inch</option>
                         </select></div>
                         </form>`,
-  rhombus: ``,
+  rhombus: `<form id="form" class="input-cont">
+  <label for="inp" class="inp-init"> Enter Diagonal 1 length(D1) : </label>
+  <div class="inp-unit">
+    <input id="inp" class="input">
+    <select name="inp" class="unit">
+                            <option value="cm">cm</option>
+                            <option value="m">m</option>
+                            <option value="mm">mm</option>
+                            <option value="km">km</option>
+                            <option value="ft">ft</option>
+                            <option value="inch">inch</option>
+                        </select></div>
+                        </form>
+                        <form id="form" class="input-cont">
+  <label for="inp" class="inp-init"> Enter Diagonal 2 length(D2) : </label>
+  <div class="inp-unit">
+    <input id="inp" class="input">
+    <select name="inp" class="unit">
+                            <option value="cm">cm</option>
+                            <option value="m">m</option>
+                            <option value="mm">mm</option>
+                            <option value="km">km</option>
+                            <option value="ft">ft</option>
+                            <option value="inch">inch</option>
+                        </select></div>
+                        </form>
+                        <form id="form" class="input-cont">
+  <label for="inp" class="inp-init"> Enter side length(s) : </label>
+  <div class="inp-unit">
+    <input id="inp" class="input">
+    <select name="inp" class="unit">
+                            <option value="cm">cm</option>
+                            <option value="m">m</option>
+                            <option value="mm">mm</option>
+                            <option value="km">km</option>
+                            <option value="ft">ft</option>
+                            <option value="inch">inch</option>
+                        </select></div>
+                        </form>`,
+  trapezium:`<form id="form" class="input-cont">
+  <label for="inp" class="inp-init"> Enter base 1 length(b1) : </label>
+  <div class="inp-unit">
+    <input id="inp" class="input">
+    <select name="inp" class="unit">
+                            <option value="cm">cm</option>
+                            <option value="m">m</option>
+                            <option value="mm">mm</option>
+                            <option value="km">km</option>
+                            <option value="ft">ft</option>
+                            <option value="inch">inch</option>
+                        </select></div>
+                        </form><form id="form" class="input-cont">
+  <label for="inp" class="inp-init"> Enter base 2 length(b2) : </label>
+  <div class="inp-unit">
+    <input id="inp" class="input">
+    <select name="inp" class="unit">
+                            <option value="cm">cm</option>
+                            <option value="m">m</option>
+                            <option value="mm">mm</option>
+                            <option value="km">km</option>
+                            <option value="ft">ft</option>
+                            <option value="inch">inch</option>
+                        </select></div>
+                        </form><form id="form" class="input-cont">
+  <label for="inp" class="inp-init"> Enter height(h) : </label>
+  <div class="inp-unit">
+    <input id="inp" class="input">
+    <select name="inp" class="unit">
+                            <option value="cm">cm</option>
+                            <option value="m">m</option>
+                            <option value="mm">mm</option>
+                            <option value="km">km</option>
+                            <option value="ft">ft</option>
+                            <option value="inch">inch</option>
+                        </select></div>
+                        </form><form id="form" class="input-cont">
+  <label for="inp" class="inp-init"> Enter side 1 length(s1) : </label>
+  <div class="inp-unit">
+    <input id="inp" class="input">
+    <select name="inp" class="unit">
+                            <option value="cm">cm</option>
+                            <option value="m">m</option>
+                            <option value="mm">mm</option>
+                            <option value="km">km</option>
+                            <option value="ft">ft</option>
+                            <option value="inch">inch</option>
+                        </select></div>
+                        </form><form id="form" class="input-cont">
+  <label for="inp" class="inp-init"> Enter side 2 length(s2) : </label>
+  <div class="inp-unit">
+    <input id="inp" class="input">
+    <select name="inp" class="unit">
+                            <option value="cm">cm</option>
+                            <option value="m">m</option>
+                            <option value="mm">mm</option>
+                            <option value="km">km</option>
+                            <option value="ft">ft</option>
+                            <option value="inch">inch</option>
+                        </select></div>
+                        </form>`,
+  kite: `<form id="form" class="input-cont">
+  <label for="inp" class="inp-init"> Enter Diagonal 1 length(D1) : </label>
+  <div class="inp-unit">
+    <input id="inp" class="input">
+    <select name="inp" class="unit">
+                            <option value="cm">cm</option>
+                            <option value="m">m</option>
+                            <option value="mm">mm</option>
+                            <option value="km">km</option>
+                            <option value="ft">ft</option>
+                            <option value="inch">inch</option>
+                        </select></div>
+                        </form><form id="form" class="input-cont">
+  <label for="inp" class="inp-init"> Enter Diagonal 2 length(D2) : </label>
+  <div class="inp-unit">
+    <input id="inp" class="input">
+    <select name="inp" class="unit">
+                            <option value="cm">cm</option>
+                            <option value="m">m</option>
+                            <option value="mm">mm</option>
+                            <option value="km">km</option>
+                            <option value="ft">ft</option>
+                            <option value="inch">inch</option>
+                        </select></div>
+                        </form><form id="form" class="input-cont">
+  <label for="inp" class="inp-init"> Enter side 1 length(s1) : </label>
+  <div class="inp-unit">
+    <input id="inp" class="input">
+    <select name="inp" class="unit">
+                            <option value="cm">cm</option>
+                            <option value="m">m</option>
+                            <option value="mm">mm</option>
+                            <option value="km">km</option>
+                            <option value="ft">ft</option>
+                            <option value="inch">inch</option>
+                        </select></div>
+                        </form><form id="form" class="input-cont">
+  <label for="inp" class="inp-init"> Enter side 2 length(s2) : </label>
+  <div class="inp-unit">
+    <input id="inp" class="input">
+    <select name="inp" class="unit">
+                            <option value="cm">cm</option>
+                            <option value="m">m</option>
+                            <option value="mm">mm</option>
+                            <option value="km">km</option>
+                            <option value="ft">ft</option>
+                            <option value="inch">inch</option>
+                        </select></div>
+                        </form>`
 }
 
 
