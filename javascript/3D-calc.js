@@ -5,6 +5,10 @@ const stext = document.getElementById("shape-name");
 const back = document.getElementById("back");
 const shapeCont = document.getElementById("visual-shape");
 const main_shape_txt = document.getElementById("shape-txt"); 
+const form = document.getElementById("inp-unit");
+const m_init = document.getElementById("main-init");
+const res_btn = document.getElementById("res-btn")
+
 
 if (Shape === "cube") {
     stext.innerText = "Cube";
@@ -13,6 +17,7 @@ if (Shape === "cube") {
     shapeCont.innerHTML = threeD[Shape];
     main_shape_txt.innerText = "Cube";
     main_shape_txt.style.cssText = bg[Shape];
+    form.innerHTML = inp[Shape];
 
 }
 else if (Shape === "cuboid") {
@@ -22,7 +27,7 @@ else if (Shape === "cuboid") {
     shapeCont.innerHTML = threeD[Shape];
     main_shape_txt.innerText = "Rectangle";
     main_shape_txt.style.cssText = bg[Shape];
-    
+    form.innerHTML = inp[Shape];
 }
 else if (Shape === "sphere") {
     stext.innerText = "Sphere";
@@ -31,6 +36,7 @@ else if (Shape === "sphere") {
     shapeCont.innerHTML = threeD[Shape];
     main_shape_txt.innerText = "Sphere";
     main_shape_txt.style.cssText = bg[Shape];
+    form.innerHTML = inp[Shape];
 }
 else if (Shape === "cylinder") {
     stext.innerText = "Cylinder";
@@ -39,6 +45,7 @@ else if (Shape === "cylinder") {
     shapeCont.innerHTML = threeD[Shape];
     main_shape_txt.innerText = "Cylinder";
     main_shape_txt.style.cssText = bg[Shape];
+    form.innerHTML = inp[Shape];
 }
 else if (Shape === "cone") {
     stext.innerText = "Cone";
@@ -47,6 +54,7 @@ else if (Shape === "cone") {
     shapeCont.innerHTML = threeD[Shape];
     main_shape_txt.innerText = "Cone";
     main_shape_txt.style.cssText = bg[Shape];
+    form.innerHTML = inp[Shape];
 }
 else if (Shape === "pyramid") {
     stext.innerText = "Pyramid";
@@ -55,6 +63,7 @@ else if (Shape === "pyramid") {
     shapeCont.innerHTML = threeD[Shape];
     main_shape_txt.innerText = "Pyramid";
     main_shape_txt.style.cssText = bg[Shape];
+    form.innerHTML = inp[Shape];
 }
 else if (Shape === "torus") {
     stext.innerText = "Torus";
@@ -63,6 +72,7 @@ else if (Shape === "torus") {
     shapeCont.innerHTML = threeD[Shape];
     main_shape_txt.innerText = "Torus";
     main_shape_txt.style.cssText = bg[Shape];
+    form.innerHTML = inp[Shape];
 }
 else {
     console.error("Error selecting shape.")

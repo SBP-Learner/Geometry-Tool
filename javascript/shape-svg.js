@@ -400,7 +400,170 @@ const inp = {
                             <option value="ft">ft</option>
                             <option value="inch">inch</option>
                         </select></div>
-                        </form>`
+                        </form>`,
+  cube:`<form id="form" class="input-cont">
+  <label for="inp" class="inp-init"> Enter side length(s) : </label>
+  <div class="inp-unit">
+    <input id="inp" class="input">
+    <select name="inp" class="unit">
+                            <option value="cm">cm</option>
+                            <option value="m">m</option>
+                            <option value="mm">mm</option>
+                            <option value="km">km</option>
+                            <option value="ft">ft</option>
+                            <option value="inch">inch</option>
+                        </select></div>
+                        </form>`,
+  cuboid: `<form id="form" class="input-cont">
+  <label for="inp" class="inp-init"> Enter length (l) : </label>
+  <div class="inp-unit">
+    <input id="inp" class="input">
+    <select name="inp" class="unit">
+                            <option value="cm">cm</option>
+                            <option value="m">m</option>
+                            <option value="mm">mm</option>
+                            <option value="km">km</option>
+                            <option value="ft">ft</option>
+                            <option value="inch">inch</option>
+                        </select></div>
+                        </form><form id="form" class="input-cont">
+  <label for="inp" class="inp-init"> Enter width (w) : </label>
+  <div class="inp-unit">
+    <input id="inp" class="input">
+    <select name="inp" class="unit">
+                            <option value="cm">cm</option>
+                            <option value="m">m</option>
+                            <option value="mm">mm</option>
+                            <option value="km">km</option>
+                            <option value="ft">ft</option>
+                            <option value="inch">inch</option>
+                        </select></div>
+                        </form><form id="form" class="input-cont">
+  <label for="inp" class="inp-init"> Enter height (h) : </label>
+  <div class="inp-unit">
+    <input id="inp" class="input">
+    <select name="inp" class="unit">
+                            <option value="cm">cm</option>
+                            <option value="m">m</option>
+                            <option value="mm">mm</option>
+                            <option value="km">km</option>
+                            <option value="ft">ft</option>
+                            <option value="inch">inch</option>
+                        </select></div>
+                        </form>`,
+  sphere:`<form id="form" class="input-cont">
+  <label for="inp" class="inp-init"> Enter radius (r) : </label>
+  <div class="inp-unit">
+    <input id="inp" class="input">
+    <select name="inp" class="unit">
+                            <option value="cm">cm</option>
+                            <option value="m">m</option>
+                            <option value="mm">mm</option>
+                            <option value="km">km</option>
+                            <option value="ft">ft</option>
+                            <option value="inch">inch</option>
+                        </select></div>
+                        </form>`,
+  cylinder:`<form id="form" class="input-cont">
+  <label for="inp" class="inp-init"> Enter radius (r) : </label>
+  <div class="inp-unit">
+    <input id="inp" class="input">
+    <select name="inp" class="unit">
+                            <option value="cm">cm</option>
+                            <option value="m">m</option>
+                            <option value="mm">mm</option>
+                            <option value="km">km</option>
+                            <option value="ft">ft</option>
+                            <option value="inch">inch</option>
+                        </select></div>
+                        </form><form id="form" class="input-cont">
+  <label for="inp" class="inp-init"> Enter height (h) : </label>
+  <div class="inp-unit">
+    <input id="inp" class="input">
+    <select name="inp" class="unit">
+                            <option value="cm">cm</option>
+                            <option value="m">m</option>
+                            <option value="mm">mm</option>
+                            <option value="km">km</option>
+                            <option value="ft">ft</option>
+                            <option value="inch">inch</option>
+                        </select></div>
+                        </form>`,
+  cone:`<form id="form" class="input-cont">
+  <label for="inp" class="inp-init"> Enter radius (r) : </label>
+  <div class="inp-unit">
+    <input id="inp" class="input">
+    <select name="inp" class="unit">
+                            <option value="cm">cm</option>
+                            <option value="m">m</option>
+                            <option value="mm">mm</option>
+                            <option value="km">km</option>
+                            <option value="ft">ft</option>
+                            <option value="inch">inch</option>
+                        </select></div>
+                        </form><form id="form" class="input-cont">
+  <label for="inp" class="inp-init"> Enter height (h) : </label>
+  <div class="inp-unit">
+    <input id="inp" class="input">
+    <select name="inp" class="unit">
+                            <option value="cm">cm</option>
+                            <option value="m">m</option>
+                            <option value="mm">mm</option>
+                            <option value="km">km</option>
+                            <option value="ft">ft</option>
+                            <option value="inch">inch</option>
+                        </select></div>
+                        </form>`,
+  pyramid:`<form id="form" class="input-cont">
+  <label for="inp" class="inp-init"> Enter baseside(s) : </label>
+  <div class="inp-unit">
+    <input id="inp" class="input">
+    <select name="inp" class="unit">
+                            <option value="cm">cm</option>
+                            <option value="m">m</option>
+                            <option value="mm">mm</option>
+                            <option value="km">km</option>
+                            <option value="ft">ft</option>
+                            <option value="inch">inch</option>
+                        </select></div>
+                        </form><form id="form" class="input-cont">
+  <label for="inp" class="inp-init"> Enter height (h) : </label>
+  <div class="inp-unit">
+    <input id="inp" class="input">
+    <select name="inp" class="unit">
+                            <option value="cm">cm</option>
+                            <option value="m">m</option>
+                            <option value="mm">mm</option>
+                            <option value="km">km</option>
+                            <option value="ft">ft</option>
+                            <option value="inch">inch</option>
+                        </select></div>
+                        </form>`,
+  torus:`<form id="form" class="input-cont">
+  <label for="inp" class="inp-init"> Enter major radius (R) : </label>
+  <div class="inp-unit">
+    <input id="inp" class="input">
+    <select name="inp" class="unit">
+                            <option value="cm">cm</option>
+                            <option value="m">m</option>
+                            <option value="mm">mm</option>
+                            <option value="km">km</option>
+                            <option value="ft">ft</option>
+                            <option value="inch">inch</option>
+                        </select></div>
+                        </form><form id="form" class="input-cont">
+  <label for="inp" class="inp-init"> Enter minor radius (r) : </label>
+  <div class="inp-unit">
+    <input id="inp" class="input">
+    <select name="inp" class="unit">
+                            <option value="cm">cm</option>
+                            <option value="m">m</option>
+                            <option value="mm">mm</option>
+                            <option value="km">km</option>
+                            <option value="ft">ft</option>
+                            <option value="inch">inch</option>
+                        </select></div>
+                        </form>`,
 }
 
 
