@@ -60,7 +60,7 @@ else if (Shape === "trapezium") {
     stext.style.cssText = bg[Shape];
     main_shape_txt.innerText = "Traqezium";
     main_shape_txt.style.cssText = bg[Shape];
-    back.style.background = "linear-gradient(to right, #43e97b, #38f9d7)";
+    back.style.background = "linear-gradient(to right, #43e97b, #168974)";
     shapeCont.innerHTML = twoD[Shape];
     form.innerHTML = inp[Shape];
 }
